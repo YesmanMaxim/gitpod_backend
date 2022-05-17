@@ -4,3 +4,7 @@ tasks:
   - name: BackEnd
     before: ./gradlew build
     command: ./gradlew run
+
+ports:
+  - port: 8080
+    visibility: public
