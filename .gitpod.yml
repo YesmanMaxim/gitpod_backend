@@ -1,0 +1,4 @@
+tasks:
+  - name: BackEnd
+    before: ./gradlew build
+    command: ./gradlew run
