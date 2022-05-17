@@ -1,3 +1,5 @@
+image: gitpod/workspace-java-17
+
 tasks:
   - name: BackEnd
     before: ./gradlew build
